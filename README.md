@@ -70,4 +70,4 @@ In this projects, a few assumptions were made:
 
 * A sales agent who is not registered in the database cannot be assigned to a sales report. Sales agents not working for the company can therefore not be added.
 
-* The input fields with type="month" do not work on browsers like Mozilla Firefox and Safari. Therefore I decided to use to type="date" where the user can choose am arbitrary day.
+* The input fields with type="month" do not work on browsers like Mozilla Firefox and Safari. Therefore I decided to use to type="date" where the user must choose an arbitrary day.
