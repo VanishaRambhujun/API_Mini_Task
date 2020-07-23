@@ -1,0 +1,191 @@
+#heading-homepage {
+  text-align: center;
+  font-size:30px;
+  font-family:Candara;
+}
+
+#form-wrapper-create {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  display:flex;
+  box-sizing: border-box;
+
+}
+
+.form-wrapper-create {
+  width:300px;
+  padding:50px;
+}
+
+
+
+
+.headingCreateAgent{
+  padding: 30px;
+  text-align: center;
+  background: #C0C0C0;
+  color: white;
+  font-size: 30px;
+}
+
+
+
+#createAgent {
+  width: 50%;
+  display: inline-block;
+  min-width:200px;
+  padding: 30px;
+}
+
+.buttonSubmitAgent {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #C0C0C0;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.buttonSubmitAgent:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+#createReport {
+  width: 50%;
+  display: inline-block;
+  min-width:200px;
+  padding: 30px;
+}
+
+.headingCreateReport{
+  padding: 30px;
+  text-align: center;
+  background: #4682B4;
+  color: white;
+  font-size: 30px;
+}
+
+.buttonSubmitReport {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4682B4;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.buttonSubmitReport:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+
+
+
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+label, input {
+  display: inline-block;
+  vertical-align: baseline;
+  width: 250px;
+
+}
+
+label {
+    color: #2D2D2D;
+    font-size: 24px;
+    text-align: left;
+}
+
+
+
+
+.getListAllReportsbyOneAgent{
+  text-align: center;
+}
+
+.buttonGetOneAgent{
+  display: inline;
+  width: 30%;
+  border: none;
+  background-color: #4682B4;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  min-width:100px
+}
+
+.buttonGetOneAgent:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.flex{
+  text-align: center;
+}
+
+.getListAllAgentsButton{
+  display: inline;
+  width: 30%;
+  border: none;
+  background-color: #4682B4;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin:auto;
+  display:block;
+  min-width:100px
+
+}
+
+.getListAllAgentsButton:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.getListAllReportsButton{
+  display: inline;
+  width:30%;
+  border: none;
+  background-color: #4682B4;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin:auto;
+  display:block;
+  min-width:100px
+}
+
+.getListAllReportsButton:hover {
+  background-color: #ddd;
+  color: black;
+}
+
