@@ -5,7 +5,7 @@ from django.db import models
 class SalesAgentReport(models.Model):
     """ Table used to store all the sales reports """
     agent = models.CharField(max_length=200)
-    period = models.DateTimeField()  # input_formats=settings.DATE_INPUT_FORMATS)
+    period = models.DateTimeField()  
     sale_volume = models.FloatField()
 
     def __str__(self):
@@ -15,8 +15,8 @@ class SalesAgentReport(models.Model):
 class SalesAgent(models.Model):
     """ Table used to store all the sales agents """
     name = models.CharField(max_length=200)
-    hire_date = models.DateTimeField()  # input_formats=settings.DATE_INPUT_FORMATS)
-    birthday = models.DateTimeField()  # input_formats=settings.DATE_INPUT_FORMATS)
+    hire_date = models.DateTimeField() 
+    birthday = models.DateTimeField()  
     city = models.CharField(max_length=200)
 
     def __str__(self):
