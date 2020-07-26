@@ -76,7 +76,6 @@ export class AppComponent  {
     this.allAgents.getAllAgents().subscribe((result) => {
       console.log(result);
       this.data_list_agents = result;
-//       this.router.navigate(['/get_list_agents'])
     },
     error => {
       console.log(error);
